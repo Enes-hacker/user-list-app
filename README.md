@@ -43,7 +43,7 @@ git commit -m "Initial commit"
 ```
 
 3. Adding a Remote Repository
-4. ```
+ ```
 git remote add origin https://github.com/Enes-hacker/user-list-app.git
 ```
 5. Pushing Changes to GitHub
