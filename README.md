@@ -39,35 +39,50 @@ git init
 2.Adding and Committing Changes:
 ```
 git add .
+git commit -m "Initial commit"
 ```
 
-git commit -m "Initial commit"
-
 3. Adding a Remote Repository
+4. ```
 git remote add origin https://github.com/Enes-hacker/user-list-app.git
-
-4. Pushing Changes to GitHub
+```
+5. Pushing Changes to GitHub
+```
 git push -u origin main
-
+```
 5.Updating the Repository (Pull Changes)
+```
 git push -u origin main
 
 ### 4. Docker Setup
 - Build the Docker Image
+  ```
 docker build -t user-list-app .
+```
 -  Create and Run the Docker Container
+```
 docker run -d -p 3000:3000 --name user-list-container user-list-app
+```
 - Now, visit http://localhost:3000 to view the app running in a Docker container.
 -  List Running Containers
+```
 docker ps
+```
 - Stop and Remove the Container
+```
 docker stop user-list-container(or name you called)
+```
 - Remove the Docker Image (if needed)
+```
 docker rmi user-list-app
+```
 - Using Docker Compose
 - To start the application using Docker Compose:
+```
 docker-compose up -d
+```
 - To stop the application:
+```
 docker-compose down
 
 ## Setup and Installation
