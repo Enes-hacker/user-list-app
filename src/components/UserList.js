@@ -44,7 +44,7 @@ function UserList() {
 
   return (
     <div>
-      <button onClick={fetchUsers} style={{ marginBottom: '20px' }}>
+      <button className="refresh-btn" onClick={fetchUsers} style={{ marginBottom: '20px' }}>
         Refresh Users
       </button>
       <div className="user-list">
