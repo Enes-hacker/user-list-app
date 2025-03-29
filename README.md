@@ -9,9 +9,6 @@ This is a simple web application built with React and TypeScript that fetches an
 - Includes loading and error states for better user experience.
 - Styled with CSS for a clean and modern look.
 - Containerized with Docker for easy setup and deployment.
-- Uses TypeScript for type safety.
-- Includes ESLint for code linting and React Testing Library for unit tests.
-- Implements modern ECMAScript patterns (e.g., optional chaining, nullish coalescing).
 - Manages state with a custom `useFetchUsers` hook.
 
 ## Prerequisites
