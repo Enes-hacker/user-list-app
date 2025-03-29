@@ -33,19 +33,24 @@ The app should now be running at http://localhost:3000
 
 ### 3.Git Commands
 -Creating a New Repository
+```bash
 git init
 
 -Adding and Committing Changes
+```bash
 git add .
 git commit -m "Initial commit"
 
 -Adding a Remote Repository
+```bash
 git remote add origin https://github.com/Enes-hacker/user-list-app.git
 
 -Pushing Changes to GitHub
+```bash
 git push -u origin main
 
 -Updating the Repository (Pull Changes)
+```bash
 git push -u origin main
 
 ### 4. Docker Setup
