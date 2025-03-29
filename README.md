@@ -32,25 +32,21 @@ yarn start
 The app should now be running at http://localhost:3000
 
 ### 3.Git Commands
-Creating a New Repository:
+1.Creating a New Repository:
 git init
 
-Adding and Committing Changes:
+2.Adding and Committing Changes:
 git add .
-
 
 git commit -m "Initial commit"
 
-Adding a Remote Repository
-```bash
+3. Adding a Remote Repository
 git remote add origin https://github.com/Enes-hacker/user-list-app.git
 
-Pushing Changes to GitHub
-```bash
+4. Pushing Changes to GitHub
 git push -u origin main
 
-Updating the Repository (Pull Changes)
-```bash
+5.Updating the Repository (Pull Changes)
 git push -u origin main
 
 ### 4. Docker Setup
