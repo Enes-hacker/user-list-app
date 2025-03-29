@@ -57,7 +57,8 @@ git push -u origin main
 
 ### 4. Docker Setup
 - Build the Docker Image
-  ```
+  
+ ```
 docker build -t user-list-app .
 ```
 -  Create and Run the Docker Container
