@@ -50,9 +50,10 @@ git remote add origin https://github.com/Enes-hacker/user-list-app.git
 ```
 git push -u origin main
 ```
-5.Updating the Repository (Pull Changes)
+6.Updating the Repository (Pull Changes)
 ```
 git push -u origin main
+```
 
 ### 4. Docker Setup
 - Build the Docker Image
@@ -84,6 +85,7 @@ docker-compose up -d
 - To stop the application:
 ```
 docker-compose down
+```
 
 ## Setup and Installation
 ### 1. Clone the Repository
