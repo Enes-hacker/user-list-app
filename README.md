@@ -33,10 +33,13 @@ The app should now be running at http://localhost:3000
 
 ### 3.Git Commands
 1.Creating a New Repository:
+```
 git init
-
+```
 2.Adding and Committing Changes:
+```
 git add .
+```
 
 git commit -m "Initial commit"
 
