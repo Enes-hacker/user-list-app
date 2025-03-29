@@ -32,13 +32,15 @@ yarn start
 The app should now be running at http://localhost:3000
 
 ### 3.Git Commands
--Creating a New Repository
+-Creating a New Repository:
 ```bash
 git init
 
--Adding and Committing Changes
+-Adding and Committing Changes:
 ```bash
 git add .
+
+
 git commit -m "Initial commit"
 
 -Adding a Remote Repository
